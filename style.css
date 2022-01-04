@@ -13,9 +13,13 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 38px;
+}
+
 .flexible-container {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .half-width {
@@ -38,6 +42,12 @@ h1 {
     font-weight: 700;
     color: white;
     border-radius: 5%;
+    transition: 0.5s all ease;
+}
+
+.link-button:hover {
+    background-image: linear-gradient(rgb(10, 194, 50), rgb(59, 41, 59));
+    color: black;
 }
 
 .dream-img {
@@ -52,4 +62,41 @@ h1 {
 
 .download-button {
     background-image: linear-gradient(45deg, teal, grey);
+    transition: 0.5s all ease;
+}
+
+.download-button:hover {
+    background-image: linear-gradient(teal, tomato);
+    color: black;
+}
+
+.box-shadow-left {
+    box-shadow: 5px 5px 50px;
+    margin-right: 2%;
+    margin-left: 5%;
+    padding: 45px;
+    border-left: 7px solid;
+    border-image: linear-gradient(red, rgb(86, 160, 17));
+    border-image-slice: 1;
+}
+
+.box-shadow-right {
+    box-shadow: 5px 5px 50px;
+    margin-right: 5%;
+    margin-left: 2%;
+    padding: 45px;
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow, navy);
+    border-image-slice: 1;
+}
+
+.experience-bg-img {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+footer p {
+    text-align: center;
+    color: #848884;
 }
